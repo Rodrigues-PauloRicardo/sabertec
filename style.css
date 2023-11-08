@@ -1,0 +1,176 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+.total{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.title{
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', ;
+    color: white;
+    background-color: rgb(16, 18, 122);    
+}
+.names{
+    font-size: 20px;
+    font-weight: bold;    
+    margin: 5px;
+}
+button{
+    margin: 7px;
+    font-weight: bold;
+}
+.cidade {
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+
+.cel2{
+    height: 100%;
+}
+@keyframes blink {
+    0% {
+        background-color: red;
+    }
+    50% {
+        background-color: transparent; /* Ou a cor de fundo original */
+    }
+    100% {
+        background-color: red;
+    }
+}
+
+.msg2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    z-index: 1;     
+    margin-top: -150px;
+    margin-left: 10px;
+    width: 100px;
+    animation: blink 1s infinite; /* Ajuste a duração da animação conforme necessário */
+}
+.cel1{
+    height: 100%;
+}
+@keyframes blink {
+    0% {
+        background-color: red;
+    }
+    50% {
+        background-color: transparent; /* Ou a cor de fundo original */
+    }
+    100% {
+        background-color: red;
+    }
+}
+
+.msg{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    z-index: 2;        
+    margin-top: -150px;
+    margin-left: 10px;
+    width: 100px;
+    animation: blink 1s infinite; /* Ajuste a duração da animação conforme necessário */
+}
+
+
+
+
+
+.arroio{
+    display: flex;       
+}
+
+
+.bloco{
+    width: 200px;
+    height: 180px;   
+    background-color: rgb(65, 19, 19);
+}
+.agua{
+    display: flex;
+    flex-direction: column;    
+    width: 100%;  
+    border: 1px solid black;
+}
+#imgOcean{
+    position: absolute;
+    z-index: -1;
+    height: 310px;
+    margin-top: -130px;
+    width: 1050px;
+}
+
+.cxCesto{
+    margin-left: 169px;    
+    position: absolute;
+    z-index: 2;
+    height: 180px;
+    width: 50px;
+}
+.cesto{
+    height: 120px;
+width: 100%;
+margin-top: 60px;
+}
+.lixo{
+    margin-left: 170px;    
+    position: absolute;
+    z-index: 2;
+    width: 50px;
+    height: 150px;
+}
+#lixo{
+    width: 100%;
+    height: 90px;
+    margin-top: 75px;
+    display: none;
+}
+
+.transporte{       
+    z-index: 3;   
+    margin-left: -130px;
+}
+
+.transp{    
+    margin-top: 190px;
+    width: 130px;
+    display: none;
+}
+
+
+#arroiotelacima{ 
+    width: 85%;   
+    position: absolute;
+    margin-left: 170px; 
+}
+
+
+#agua3{    
+    height: 58px;    
+    
+   
+}
+#agua2{ 
+    height: 58px;
+    background-color: white;
+   
+}
+#agua1{    
+    height: 58px;
+    background-color: white;
+}

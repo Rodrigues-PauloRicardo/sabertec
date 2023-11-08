@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="total">
+        <div class="cabecario">
+            <div class="title">PROJETO: CONTROLE DE VOLUME DE ÁGUA E MONITORAMENTO DE POLUIÇÃO EM ARROIOS URBANOS</div>
+            <div class="names"> Aluno: Thomas Vargas Rodrigues - 6º Ano </div>
+
+            <div class="btns">    
+                <button type="button" onclick="NivelPoluicao('agua6')">Nível de Poluição Alta</button>
+                <button type="button" onclick="LixoVisivel('agua4')">Coletor Cheio</button>    
+                <button type="button" onclick="MudarColeta('agua5')">Caminhão de Coleta</button>
+                <button type="button" onclick="LixoInvisivel('agua3')">Coletor Vazio</button>
+                <button onclick="RemoverCorFundoAtencao('agua2')">Nível Médio de Água</button>
+                <button onclick="NivelAlerta('agua1')">-Nível Alto/ALERTA</button> 
+                <audio id="alertaAudio" src="alert/salamisound-8723691-alarm-siren-car-alarm.mp3"></audio>  
+         </div>
+         </div>
+         </div>
+
+         <div class="cidade">
+
+            <div class="transporte">
+                <img src="img/transporte.png" class="transp" id="imagemColeta" >
+            </div>
+
+            <div id="cel2">
+                <img src="img/celular.png" alt="" class="cel2">
+                <div class="msg2">ÓRGÃO PÚBLICO</div>
+            </div>   
+            
+            
+            <img src="img/city.png" alt="" class="city"> 
+            <div id="cel1">
+                <img src="img/celular.png" alt="" class="cel1">
+                <div class="msg">MORADOR</div>
+            </div>           
+           
+        </div>
+
+        <div class="arroio">
+            <div class="bloco"></div> 
+            <div class="agua">
+                <img src="img/ocean.gif" alt="" id="imgOcean">                
+            </div>  
+             
+            <div class="cxCesto">
+                <img src="img/cesto.png" alt="" class="cesto">
+            </div>
+            <div class="lixo">
+                <img src="img/lixo.png" alt="" id="lixo">
+            </div>
+
+            <div id="arroiotelacima">
+            <div id="agua1" >              
+            </div>
+            <div id="agua2">
+            </div>
+            <div id="agua3" >
+            </div>
+    </div>
+
+
+     
+        </div>
+
+
+
+    
+
+        
+
+
+
+
+    </div>
+
+
+
+<script src="tela.js"></script>
+
+
+    
+</body>
+</html>
